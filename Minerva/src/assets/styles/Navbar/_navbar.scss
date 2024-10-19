@@ -1,0 +1,30 @@
+.nav_section {
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+    .nav {
+        display: flex;
+        align-items: center;
+        background-color:#fff9f9;
+        width: 100vw;
+        min-height: 7vh;
+        .nav_left {
+            margin-left: 0.5rem;
+            margin-right: auto;
+            .minerva h3{
+                padding: 0;
+                margin: 0;
+            }
+        }
+        .nav_right {
+            .courses,
+            .categories,
+            .about{
+                margin-right: 1rem;
+                font-weight: 500;
+                font-size: large;
+            }
+        }
+    }
+}

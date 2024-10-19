@@ -1,0 +1,29 @@
+.bottomnav_section {
+    position: absolute;
+    bottom: 0;
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .bottomnav {
+        display: flex;
+        align-items: center;
+        background-color: #c4ced4;
+        width: 100vw;
+        min-height: 7vh;
+        .bottomnav_left {
+            margin-left: 0.5rem;
+            margin-right: auto;
+        }
+        .bottomnav_right {
+            .terms,
+            .privacy,
+            .contact {
+                margin-right: 1rem;
+                font-weight: 500;
+                font-size: large;
+            }
+        }
+    }
+}
