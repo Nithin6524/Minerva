@@ -4,7 +4,7 @@ body {
     font-family: "Poppins", sans-serif;
 
     color: #27251f;
-    background-color: #ffffff;
+    background-color: $bg-color;
 
     p {
         font-weight: 400;
@@ -19,7 +19,7 @@ body {
 
         &:hover {
             text-decoration: none;
-            color: #007e26;
+            color: $green-color;
         }
     }
 

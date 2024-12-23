@@ -2,10 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 function BottomNav() {
     return (
-        <div className="bottomnav_section">
-            <div className="container">
-                <div className="row">
-                    <div className="col-12">
                         <div className="bottomnav">
                             <div className="bottomnav_left">
                                 <p>
@@ -24,10 +20,7 @@ function BottomNav() {
                                 </Link>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+              
     );
 }
 

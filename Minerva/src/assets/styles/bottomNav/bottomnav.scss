@@ -1,29 +1,32 @@
-.bottomnav_section {
-    position: absolute;
-    bottom: 0;
-    .container {
-        margin: 0;
-        padding: 0;
-    }
+
 
     .bottomnav {
         display: flex;
         align-items: center;
-        background-color: #c4ced4;
-        width: 100vw;
-        min-height: 7vh;
-        .bottomnav_left {
+        position: relative;
+        width: 99vw;
+        bottom: 0;
+        min-height: 5vh;
+        background-color: rgb(6, 75, 57);
+        
+        &_left {
             margin-left: 0.5rem;
             margin-right: auto;
+            p{
+                
+            color: aliceblue;
+            }
         }
-        .bottomnav_right {
-            .terms,
-            .privacy,
-            .contact {
+
+        &_right {
+            
+                a{
                 margin-right: 1rem;
                 font-weight: 500;
                 font-size: large;
-            }
+                
+            color: aliceblue;
+                }
+            
         }
     }
-}

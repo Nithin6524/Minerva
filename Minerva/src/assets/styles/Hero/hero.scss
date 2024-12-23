@@ -1,12 +1,12 @@
 .hero_section {
-    background-color: #f0f3f5;
+    background-color: $bg-color;
     width: 100vw;
     .section-1 {
         margin: 2rem auto;
         display: flex;
         flex-direction: column;
         align-items: center;
-        .hero_caption{
+        .hero_caption {
             text-align: center;
             font-size: 3.5rem;
         }
@@ -19,16 +19,17 @@
             .searchbar {
                 display: flex;
                 input {
-                    padding: 0.7rem 20rem 0.7rem 0.3rem;
+                    padding: 0.7rem 23rem 0.7rem 0.3rem;
                     margin-right: 0.5rem;
                     border: 2px solid rgb(114, 112, 112);
                     outline: none; // Removes the default browser outline on focus
                     border-radius: 0.5rem;
                     &:focus {
-                        border-color: #3498db; // Change border color when focused (you can pick any color)
-                        box-shadow: 0 0 5px rgba(52, 152, 219, 0.7); // Optional: Add a subtle shadow for a highlighting effect
+                        border-color: $green-color; // Change border color when focused (you can pick any color)
+                        box-shadow: 0 0 5px $green-color; // Optional: Add a subtle shadow for a highlighting effect
                     }
                 }
+
                 button {
                     display: flex; // Flexbox helps align items easily
                     align-items: center; // Vertically center the items (image and text)
@@ -60,9 +61,12 @@
             .reason-3 {
                 width: 100%;
                 text-align: center;
-                h3{
-                    font-size: 1.8rem;
-                    font-weight: 600;
+                h3 {
+                    font-size: 2rem;
+                    font-weight: 500;
+                }
+                p {
+                    font-size: 1.3rem;
                 }
             }
         }
