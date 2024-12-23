@@ -1,0 +1,57 @@
+.categories-heading {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 3rem;
+}
+.category-cards {
+    display: flex;
+    flex-wrap: wrap;
+    .category-card {
+        background-color: rgb(247, 247, 247);
+        width: 410px;
+        height: 510px;
+        margin: 15px;
+
+        border-radius: 5%;
+
+        .category-image img {
+            border-top-left-radius: 5%;
+            border-top-right-radius: 5%;
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .category-name {
+            font-family: monospace;
+            font-size: 1.7rem;
+            font-weight: bold;
+            margin: 10px 30px 0 25px;
+        }
+        .category-description {
+            margin: 10px 30px 0 25px;
+        }
+        .category-courses {
+            margin: 10px 30px 0 25px;
+
+            font-weight: 600;
+        }
+        .view-courses {
+            padding: 0 110px;
+            margin: 10px 10px 0 25px;
+            background-color: rgb(3, 59, 61);
+            color: white;
+            border-radius: 5px;
+            padding: 5px 120px;
+        }
+        .view-courses:hover {
+            background-color: rgb(4, 122, 126);
+        }
+    }
+    .category-card:hover {
+        cursor: pointer;
+        box-shadow: 10px 10px rgb(3, 59, 61);
+        transform: translate(-3px, -3px);
+    }
+}
